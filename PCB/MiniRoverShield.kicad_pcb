@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 88)
+    (drawings 89)
     (tracks 684)
     (zones 0)
     (modules 47)
@@ -28,7 +28,7 @@
   )
 
   (setup
-    (last_trace_width 0.1524)
+    (last_trace_width 0.2)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -2347,6 +2347,9 @@
     )
   )
 
+  (gr_text "2019.08.03\n@n_yosihisa\nMiniRoverShield for Arduino nano 33" (at 41.82 94.666) (layer F.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.2)) (justify left))
+  )
   (gr_poly (pts (xy 92.112 82.982) (xy 92.112 78.664) (xy 94.398 78.664) (xy 94.398 82.982)) (layer F.SilkS) (width 0.15) (tstamp 5D46DF18))
   (gr_poly (pts (xy 87.032 67.234) (xy 87.032 62.916) (xy 89.318 62.916) (xy 89.318 67.234)) (layer F.SilkS) (width 0.15))
   (gr_text "ON\nOFF" (at 109.8 91.43) (layer F.SilkS)
