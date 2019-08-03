@@ -94,7 +94,7 @@ NoConn ~ 9400 2400
 Text Label 6800 2100 0    50   ~ 0
 MISO
 Text Label 6800 1900 0    50   ~ 0
-CLK
+SCK
 Text Label 6800 1700 0    50   ~ 0
 MOSI
 Text Label 6800 1600 0    50   ~ 0
@@ -238,18 +238,18 @@ Wire Wire Line
 Wire Wire Line
 	6800 1900 7700 1900
 Text Label 3150 1100 0    50   ~ 0
-CS
+SCK
 Text Label 6100 1100 2    50   ~ 0
 MISO
 Text Label 6100 1200 2    50   ~ 0
 MOSI
-Text Label 6100 1300 2    50   ~ 0
-MotorR1
-Text Label 6100 1400 2    50   ~ 0
-MotorR2
 Text Label 6100 1700 2    50   ~ 0
-MotorL1
+MotorR1
 Text Label 6100 1800 2    50   ~ 0
+MotorR2
+Text Label 6100 1300 2    50   ~ 0
+MotorL1
+Text Label 6100 1400 2    50   ~ 0
 MotorL2
 Text Label 6100 2000 2    50   ~ 0
 Nichrome
@@ -264,13 +264,13 @@ Wire Wire Line
 Wire Wire Line
 	4900 2000 6100 2000
 Wire Wire Line
-	4900 1800 6100 1800
-Wire Wire Line
-	4900 1700 6100 1700
+	4900 1400 6100 1400
 Wire Wire Line
 	4900 1300 6100 1300
 Wire Wire Line
-	4900 1400 6100 1400
+	4900 1700 6100 1700
+Wire Wire Line
+	4900 1800 6100 1800
 Wire Wire Line
 	4900 1200 6100 1200
 Wire Wire Line
@@ -281,14 +281,14 @@ Wire Wire Line
 	3350 1200 3600 1200
 Wire Wire Line
 	3150 1100 3600 1100
-Text Label 3150 1500 0    50   ~ 0
+Text Label 3150 2100 0    50   ~ 0
 PTr_R
-Text Label 3150 1600 0    50   ~ 0
+Text Label 3150 1500 0    50   ~ 0
 RTr_L
 Wire Wire Line
 	3600 1500 3150 1500
 Wire Wire Line
-	3600 1600 3150 1600
+	3600 2100 3150 2100
 $Comp
 L user_library:TPS63000 U1
 U 1 1 5D3EDD38
@@ -509,13 +509,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 P5
 U 1 1 5D433612
-P 8500 3850
-F 0 "P5" H 8580 3796 50  0000 L CNN
-F 1 "Motor" H 8580 3751 50  0001 L CNN
-F 2 "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical" H 8500 3850 50  0001 C CNN
-F 3 "~" H 8500 3850 50  0001 C CNN
-	1    8500 3850
-	1    0    0    -1  
+P 8500 3950
+F 0 "P5" H 8580 3896 50  0000 L CNN
+F 1 "Motor" H 8580 3851 50  0001 L CNN
+F 2 "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical" H 8500 3950 50  0001 C CNN
+F 3 "~" H 8500 3950 50  0001 C CNN
+	1    8500 3950
+	1    0    0    1   
 $EndComp
 Text Label 6500 4000 0    50   ~ 0
 MotorL1
@@ -1075,10 +1075,10 @@ Wire Wire Line
 	8800 3750 9200 3750
 Wire Wire Line
 	8800 5100 9200 5100
-Text Label 6100 2100 2    50   ~ 0
+Text Label 6100 1600 2    50   ~ 0
 flightPin
 Wire Wire Line
-	6100 2100 4900 2100
+	6100 1600 4900 1600
 $Comp
 L Connector_Generic:Conn_01x02 P3
 U 1 1 5D585BB9
@@ -1466,4 +1466,8 @@ F 3 "~" H 8550 5200 50  0001 C CNN
 	1    8550 5200
 	1    0    0    -1  
 $EndComp
+Text Label 6100 1500 2    50   ~ 0
+CS
+Wire Wire Line
+	4900 1500 6100 1500
 $EndSCHEMATC
