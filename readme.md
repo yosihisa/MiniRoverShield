@@ -1,14 +1,16 @@
 # Cansat Shield for Arduino Nano 33
-This project develop a new CanSat shield for Arduino Nano 33 series.  
-Using this board, you can add a motor, battery, GPS, SD card, etc. to the Arduino Nano 33.  
-And you can easily make a small exploration rover.  
+Arduino Nano 33用のCanSatシールドです。  
+これを使うことにより、簡単に小型ローバーを作ることができるようになります。
 
-これはArduino Nano 33用の新しいCanSatシールドを開発するプロジェクトです。  
-この基板を使うと、Arduino Nano 33にモータ・電池・GPS・SDカードなどを追加することができます。  
-そして小型ローバーを簡単に作ることができます。
-
-# 使い方
-
-# 構成
-
-# CanSatとは
+# 搭載している機能
+標準的なCanSatに必要な以下の機能を搭載しています。
+・モーター
+・モータードライバ2つ
+・電池(Li-ion 10440)
+・電源回路
+・GNSSモジュール
+・microSD(データ記録用)
+・ニクロム線(パラシュート分離用)
+・MCU (Arduino nano 33内蔵)
+・地磁気センサ(Arduino nano 33内蔵)
+・通信機(Arduino nano 33内蔵)
