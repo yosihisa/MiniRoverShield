@@ -1,44 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Micro_SD_Card
+# Connector_Generic_Conn_01x02
 #
-DEF Connector:Micro_SD_Card J 0 40 Y Y 1 F N
-F0 "J" -650 600 50 H V C CNN
-F1 "Connector:Micro_SD_Card" 650 600 50 H V R CNN
-F2 "" 1150 300 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- microSD*
-$ENDFPLIST
-DRAW
-S -300 -375 -200 -425 0 1 0 F
-S -300 -275 -200 -325 0 1 0 F
-S -300 -175 -200 -225 0 1 0 F
-S -300 -75 -200 -125 0 1 0 F
-S -300 25 -200 -25 0 1 0 F
-S -300 125 -200 75 0 1 0 F
-S -300 225 -200 175 0 1 0 F
-S -300 325 -200 275 0 1 0 F
-P 6 0 1 10 650 500 650 550 -750 550 -750 -650 650 -650 650 -450 N
-P 11 0 1 10 -350 -450 -350 350 -50 350 100 500 150 500 150 450 250 450 300 500 800 500 800 -450 -350 -450 f
-X DAT2 1 -900 300 150 R 50 50 1 1 B
-X DAT3/CD 2 -900 200 150 R 50 50 1 1 B
-X CMD 3 -900 100 150 R 50 50 1 1 I
-X VDD 4 -900 0 150 R 50 50 1 1 W
-X CLK 5 -900 -100 150 R 50 50 1 1 I
-X VSS 6 -900 -200 150 R 50 50 1 1 W
-X DAT0 7 -900 -300 150 R 50 50 1 1 I
-X DAT1 8 -900 -400 150 R 50 50 1 1 I
-X SHIELD 9 800 -600 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x02
-#
-DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -53,11 +20,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x15
+# Connector_Generic_Conn_01x15
 #
-DEF Connector_Generic:Conn_01x15 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x15 J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "Connector_Generic:Conn_01x15" 0 -800 50 H V C CNN
+F1 "Connector_Generic_Conn_01x15" 0 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -98,11 +65,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Battery_Cell
+# Device_Battery_Cell
 #
-DEF Device:Battery_Cell BT 0 0 N N 1 F N
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Device:Battery_Cell" 100 0 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -117,11 +84,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C_Small
+# Device_C_Small
 #
-DEF Device:C_Small C 0 10 N N 1 F N
+DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device:C_Small" 10 -80 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -135,11 +102,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:L
+# Device_L
 #
-DEF Device:L L 0 40 N N 1 F N
+DEF Device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Device:L" 75 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -158,11 +125,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED_Small
+# Device_LED_Small
 #
-DEF Device:LED_Small D 0 10 N N 1 F N
+DEF Device_LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "Device:LED_Small" -175 -100 50 H V L CNN
+F1 "Device_LED_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -171,9 +138,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 10 -30 -40 -30 40 N
 P 2 0 1 0 40 0 -30 0 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
 P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
 P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
 X K 1 -100 0 70 R 50 50 1 1 P
@@ -181,43 +148,39 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_NMOS_GSD
+# Device_Q_NMOS_GSD
 #
-DEF Device:Q_NMOS_GSD Q 0 0 Y N 1 F N
+DEF Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NMOS_GSD" 200 -50 50 H V L CNN
+F1 "Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 2 0 10 0 N
-P 2 0 1 0 30 -70 100 -70 N
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
 P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
 P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
 P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
 P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 -70 130 -70 130 70 30 70 N
 P 4 0 1 0 40 0 80 15 80 -15 40 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
 P 4 0 1 0 110 20 115 15 145 15 150 10 N
 P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
-X G 1 -200 0 200 R 50 50 1 1 I
+X G 1 -200 0 100 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -230,11 +193,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R_Small
+# Device_R_Small
 #
-DEF Device:R_Small R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -247,86 +210,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_SPST
+# MiniRoverShield-rescue_BD6231F_2-user_library
 #
-DEF Switch:SW_SPST SW 0 0 Y N 1 F N
-F0 "SW" 0 125 50 H V C CNN
-F1 "Switch:SW_SPST" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-P 2 0 0 0 -60 10 60 70 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X B 2 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power:+3.3V
-#
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+BATT
-#
-DEF power:+BATT #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+BATT" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +BATT 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+VSW
-#
-DEF power:+VSW #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+VSW" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +VSW 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GND
-#
-DEF power:GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# user_library:BD6231F_2
-#
-DEF user_library:BD6231F_2 U 0 40 Y Y 1 F N
+DEF MiniRoverShield-rescue_BD6231F_2-user_library U 0 40 Y Y 1 F N
 F0 "U" 200 -50 60 H V C CNN
-F1 "user_library:BD6231F_2" 400 -150 60 H V C CNN
+F1 "MiniRoverShield-rescue_BD6231F_2-user_library" 400 -150 60 H V C CNN
 F2 "" -300 -450 60 H I C CNN
 F3 "" -300 -450 60 H I C CNN
 DRAW
@@ -342,11 +230,11 @@ X GND 8 0 -200 200 U 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# user_library:FDS4935A
+# MiniRoverShield-rescue_FDS4935A-user_library
 #
-DEF user_library:FDS4935A Q 0 0 Y N 2 F N
+DEF MiniRoverShield-rescue_FDS4935A-user_library Q 0 0 Y N 2 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "user_library:FDS4935A" 200 -50 50 H V L CNN
+F1 "MiniRoverShield-rescue_FDS4935A-user_library" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -380,11 +268,11 @@ X D 8 200 200 100 D 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# user_library:GYSFDMAXB
+# MiniRoverShield-rescue_GYSFDMAXB-user_library
 #
-DEF user_library:GYSFDMAXB U 0 40 Y Y 1 F N
+DEF MiniRoverShield-rescue_GYSFDMAXB-user_library U 0 40 Y Y 1 F N
 F0 "U" 0 -1250 60 H V C CNN
-F1 "user_library:GYSFDMAXB" 0 50 60 H V C CNN
+F1 "MiniRoverShield-rescue_GYSFDMAXB-user_library" 0 50 60 H V C CNN
 F2 "" -450 0 60 H I C CNN
 F3 "" -450 0 60 H I C CNN
 DRAW
@@ -405,11 +293,44 @@ X GND 7 -450 -700 200 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# user_library:TPS63000
+# MiniRoverShield-rescue_Micro_SD_Card-Connector
 #
-DEF user_library:TPS63000 U 0 20 Y Y 1 F N
+DEF MiniRoverShield-rescue_Micro_SD_Card-Connector J 0 40 Y Y 1 F N
+F0 "J" -650 600 50 H V C CNN
+F1 "MiniRoverShield-rescue_Micro_SD_Card-Connector" 650 600 50 H V R CNN
+F2 "" 1150 300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ microSD*
+$ENDFPLIST
+DRAW
+S -300 -375 -200 -425 0 1 0 F
+S -300 -275 -200 -325 0 1 0 F
+S -300 -175 -200 -225 0 1 0 F
+S -300 -75 -200 -125 0 1 0 F
+S -300 25 -200 -25 0 1 0 F
+S -300 125 -200 75 0 1 0 F
+S -300 225 -200 175 0 1 0 F
+S -300 325 -200 275 0 1 0 F
+P 6 0 1 10 650 500 650 550 -750 550 -750 -650 650 -650 650 -450 N
+P 11 0 1 10 -350 -450 -350 350 -50 350 100 500 150 500 150 450 250 450 300 500 800 500 800 -450 -350 -450 f
+X DAT2 1 -900 300 150 R 50 50 1 1 B
+X DAT3/CD 2 -900 200 150 R 50 50 1 1 B
+X CMD 3 -900 100 150 R 50 50 1 1 I
+X VDD 4 -900 0 150 R 50 50 1 1 W
+X CLK 5 -900 -100 150 R 50 50 1 1 I
+X VSS 6 -900 -200 150 R 50 50 1 1 W
+X DAT0 7 -900 -300 150 R 50 50 1 1 I
+X DAT1 8 -900 -400 150 R 50 50 1 1 I
+X SHIELD 9 800 -600 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MiniRoverShield-rescue_TPS63000-user_library
+#
+DEF MiniRoverShield-rescue_TPS63000-user_library U 0 20 Y Y 1 F N
 F0 "U" -300 550 50 H V L CNN
-F1 "user_library:TPS63000" 100 550 50 H V C CNN
+F1 "MiniRoverShield-rescue_TPS63000-user_library" 100 550 50 H V C CNN
 F2 "Package_SON:Texas_S-PWSON-N10_ThermalVias" 0 -650 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -425,6 +346,81 @@ X EN 6 -400 -100 100 R 50 50 1 1 I
 X PS/SYNC 7 -400 -200 100 R 50 50 1 1 I
 X VINA 8 -400 100 100 R 50 50 1 1 W
 X GND 9 -200 -600 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_SPST
+#
+DEF Switch_SW_SPST SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Switch_SW_SPST" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+BATT
+#
+DEF power_+BATT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+BATT" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+VSW
+#
+DEF power_+VSW #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+VSW" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +VSW 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MiniRoverShield-rescue)(type Legacy)(uri ${KIPRJMOD}/MiniRoverShield-rescue.lib)(options "")(descr ""))
+)
