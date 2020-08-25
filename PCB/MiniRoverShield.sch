@@ -285,7 +285,7 @@ L MiniRoverShield-rescue:TPS63000-user_library U1
 U 1 1 5D3EDD38
 P 1450 3000
 F 0 "U1" H 1450 3667 50  0000 C CNN
-F 1 "TPS63000" H 1450 3576 50  0000 C CNN
+F 1 "TPS63001" H 1450 3576 50  0000 C CNN
 F 2 "Package_SON:Texas_S-PVSON-N10_ThermalVias" H 1450 2350 50  0001 C CNN
 F 3 "https://strawberry-linux.com/pub/tps63000.pdf" H 1450 3000 50  0001 C CNN
 	1    1450 3000
