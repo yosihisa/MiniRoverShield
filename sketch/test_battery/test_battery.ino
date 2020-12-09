@@ -20,24 +20,29 @@ void loop() {
   int flightPin = digitalRead(7);
   float V_bat = 3.3 / 512 * analogRead(A3);
 
+  //フライトピンが抜けるまで待機
+  //フライトピンが抜けたらカウントアップ
   if (flightPin == 0) {
     i = 0;
   } else {
     i++;
   }
 
+  // フライトピンが抜けてから1～7秒間モータを駆動
   if (10 <= i && i < 70) {
     motor(255, 255);
   } else {
     motor(0, 0);
   }
-  
+
+  // フライトピンが抜けてから2～5秒間ニクロム線を駆動
   if (30 <= i && i < 50) {
     digitalWrite(3, HIGH);
   } else {
     digitalWrite(3, LOW);
   }
 
+  //フライトピンの状態,電圧を表示
   Serial.print(flightPin);
   Serial.print(",");
   Serial.print(V_bat,4);
