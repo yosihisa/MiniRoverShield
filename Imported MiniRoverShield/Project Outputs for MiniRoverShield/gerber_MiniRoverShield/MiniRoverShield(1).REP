@@ -1,0 +1,230 @@
+*************************************************************
+FileName = MiniRoverShield(1).GBR
+AutoAperture = True
+*************************************************************
+Generating : Assembly Notes
+      File : MiniRoverShield(1).GM2
+
+    Adding Layer      : Assembly Notes
+
+
+Used DCodes :
+    D10
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Edge.Cuts
+      File : MiniRoverShield(1).GM1
+
+    Adding Layer      : Edge.Cuts
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : B.SilkS
+      File : MiniRoverShield(1).GBO
+
+    Adding Layer      : B.SilkS
+
+
+Used DCodes :
+    D11
+    D54
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : MiniRoverShield(1).GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : F.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : B.Cu
+      File : MiniRoverShield(1).GBL
+
+    Adding Layer      : B.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : B.Mask
+      File : MiniRoverShield(1).GBS
+
+    Adding Layer      : B.Mask
+
+    Adding Layer      : B.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D56
+    D57
+    D58
+    D59
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : MiniRoverShield(1).GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : B.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : F.SilkS
+      File : MiniRoverShield(1).GTO
+
+    Adding Layer      : F.SilkS
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : F.Mask
+      File : MiniRoverShield(1).GTS
+
+    Adding Layer      : F.Mask
+
+    Adding Layer      : F.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : F.Cu
+      File : MiniRoverShield(1).GTL
+
+    Adding Layer      : F.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D15
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+

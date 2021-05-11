@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 22:29:31 On 2021/05/11
+
+Output: AutoCAD dwg/dxf File PCB
+Type  : AutoCAD PCB
+From  : PCB Document [MiniRoverShield(1).PcbDoc]
+   Generated File[MiniRoverShield(1).DXF]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 22:29:33 On 2021/05/11
