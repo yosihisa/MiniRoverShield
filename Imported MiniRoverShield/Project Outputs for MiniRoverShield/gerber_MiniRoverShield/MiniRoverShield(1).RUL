@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: E:\vscode\MiniRoverShield\Imported MiniRoverShield\MiniRoverShield(1).PcbDoc
+RuleKind=Clearance|RuleName=Clearence 0.3_NetClass|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearence 0.3_Polygon|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearence 0.2_NetClass|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearence 0.1524_NetClass|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
